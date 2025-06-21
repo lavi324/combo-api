@@ -1,0 +1,19 @@
+# Terraform specific
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+.terraform.tfstate
+.terraform.lock.hcl
+.terraform.tfstate.1745060439.backup
+# IDE/editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS-specific
+.DS_Store
+Thumbs.db
+.env
