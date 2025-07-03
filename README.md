@@ -17,7 +17,7 @@ gcloud config set compute/zone your_zone
 ```
 4) Set up a Git ignore file.
 
-5) Apply a Terraform script that will set up a VPC Network, Subnet, GKE Cluster, NGINX Ingress Controller and Kubernetes Apps via Helm (Jenkins, ArgoCD, Mongo).
+5) Apply a Terraform script that will set up a VPC Network, Subnet, GKE Cluster, NGINX Ingress Controller and Kubernetes App via Helm (Mongo).
 
 6) Set up a script that will automate the push of the future new files into this repository.
 ```bash
