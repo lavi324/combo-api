@@ -8,6 +8,6 @@ spec:
   selector:
     app: football-frontend
   ports:
-  - port: 5000       # service port
-    targetPort: 5000 # container port for Flask app
+  - port: 5000   
+    targetPort: 5000 
     protocol: TCP
