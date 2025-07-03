@@ -55,7 +55,13 @@ This will be the landing page that users can visit to learn about the API, see a
 Codes: Create a Flask app code that defines the root path "/", which renders an HTML template (create the HTML template code too).
 
 **Docker:**
-Create Docker files for the backend app and the frontend app, create an images and push into DockerHub.
+Create Docker files for the backend app and the frontend app, create an images and push them into DockerHub.
 
 **Kubernetes:**
+With the images ready, set up the Kubernetes manifests to deploy everything.
+We need:
+A **Secret** for the MongoDB connection credentials (URL and database name).
+A **Deployment** and **Service** for the FastAPI backend.
+A **Deployment** and **Service** for the Flask frontend.
+An **Ingress** resource to deploy the Ingress Controller that will route traffic to the correct service based on URL path.
 
