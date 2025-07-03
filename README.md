@@ -4,10 +4,10 @@
 
 2) Enable "Kubernetes Engine API" (for GCP).
 
-3) Set your default region and zone to us-central1 and us-central1-a:
+3) Set up your default region and zone:
 ```bash
-gcloud config set compute/region us-central1
-gcloud config set compute/zone us-central1-a
+gcloud config set compute/region your_region
+gcloud config set compute/zone your_zone
 ```
 4) Set up a Git ignore file.
 
@@ -17,10 +17,10 @@ gcloud config set compute/zone us-central1-a
 ```bash
 #!/bin/bash
 
-USERNAME="lavi324"
+USERNAME="your_user"
 TOKEN="${GITHUB_PAT}"
 
-git remote set-url origin https://$USERNAME:$TOKEN@github.com/$USERNAME/sport-tables-ai.git
+git remote set-url origin https://$USERNAME:$TOKEN@github.com/$USERNAME/your_repo.git
 
 git add .
 git commit -m "Initial commit"
