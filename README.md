@@ -59,9 +59,14 @@ Create Docker files for the backend app and the frontend app, create an images a
 
 **Kubernetes:**
 With the images ready, set up the Kubernetes manifests to deploy everything.
+
 you need to create:
+
 A **Secret** for the MongoDB connection credentials (URL and database name).
+
 A **Deployment** and **Service** for the FastAPI backend.
+
 A **Deployment** and **Service** for the Flask frontend.
+
 An **Ingress** resource to deploy the Ingress Controller that will route traffic to the correct service based on URL path.
 
