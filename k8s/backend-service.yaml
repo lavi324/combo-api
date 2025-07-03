@@ -8,6 +8,6 @@ spec:
   selector:
     app: football-backend
   ports:
-  - port: 8000       # service port
-    targetPort: 8000 # container port to route to
+  - port: 8000       
+    targetPort: 8000 
     protocol: TCP
