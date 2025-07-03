@@ -1,4 +1,4 @@
-In this project, we will build a soccer leagues standings API. 
+In this project, you will build a soccer leagues standings API. 
 The project consists a FastAPI backend serving a GET-only API, a Flask frontend serving a landing page (documentation UI) and a MongoDB database for storing league standings. 
 All components will be containerized with Docker and deployed to Kubernetes using Deployments, Services ,Ingress and secret. 
 
@@ -59,7 +59,7 @@ Create Docker files for the backend app and the frontend app, create an images a
 
 **Kubernetes:**
 With the images ready, set up the Kubernetes manifests to deploy everything.
-We need:
+you need to create:
 A **Secret** for the MongoDB connection credentials (URL and database name).
 A **Deployment** and **Service** for the FastAPI backend.
 A **Deployment** and **Service** for the Flask frontend.
