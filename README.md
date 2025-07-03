@@ -53,3 +53,9 @@ The frontend will use Flask to serve a static documentation page for the API.
 This will be the landing page that users can visit to learn about the API, see available endpoints, and understand how to use it.
 
 Codes: Create a Flask app code that defines the root path "/", which renders an HTML template (create the HTML template code too).
+
+**Docker:**
+Create Docker files for the backend app and the frontend app, create an images and push into DockerHub.
+
+**Kubernetes:**
+
