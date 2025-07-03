@@ -46,9 +46,10 @@ Create the DB that you want to use, create one collection for every league and c
 **Backend:**
 The backend will use FastAPI to expose an HTTP GET endpoint /api/standings/{league_name} that returns the standings for the requested league. The data will be fetched from a MongoDB collection matching to the league name.
 
-**Codes**: Create a single FastAPI code to define the single GET endpoint.
+Codes: Create a single FastAPI code to define the single GET endpoint.
 
 **Frontend:**
 The frontend will use Flask to serve a static documentation page for the API.
 This will be the landing page that users can visit to learn about the API, see available endpoints, and understand how to use it.
-**Codes**: Create a Flask app code that defines the root path "/", which renders an HTML template (create the HTML template code too).
+
+Codes: Create a Flask app code that defines the root path "/", which renders an HTML template (create the HTML template code too).
